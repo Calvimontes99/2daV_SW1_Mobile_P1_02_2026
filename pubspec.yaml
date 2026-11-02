@@ -1,0 +1,25 @@
+name: diagramador_movil
+description: "App móvil informativa del Diagramador UML: diagrama en vivo, chat del equipo y de la IA, y notificaciones."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  firebase_core: ^4.15.0
+  firebase_messaging: ^16.7.0
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^22.3.2
+  http: ^1.6.0
+  shared_preferences: ^2.5.6
+  socket_io_client: ^3.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
